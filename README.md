@@ -1,63 +1,74 @@
-# Helix
-Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos. 
-Puden, si desean, agregar imágenes o resultados obtenidos. 
+# 🩺 MedScan - Predicción de Enfermedades a partir de Radiografías de Tórax
 
-Recuerden que este readme es su puerta de entrada para su proyecto. 
-
-Un ejemplo puede ser: 
-# Nombre del Proyecto
-
-Breve descripción del proyecto.
+Este proyecto presenta una innovadora herramienta basada en inteligencia artificial (IA) para el diagnóstico de enfermedades pulmonares a partir de imágenes de radiografías de tórax. La solución emplea un modelo de aprendizaje profundo entrenado para analizar las radiografías y proporcionar predicciones sobre la presencia de diversas enfermedades.
 
 ## Tabla de contenidos
 
-1. [Nombre](#Nombre)
-2. [Descripción](#descripción)
-3. [Arquitectura](#Arquitectura)
-4. [Proceso](#Proceso)
-5. [Funcionalidades](#Funcionalidades)
-6. [Estado del proyecto](#EstadoDelProyecto)
-7. [Agradecimientos](#Agradecimientos)
+1. [Introducción](#introducción)
+2. [Descripción del Proyecto](#descripción-del-proyecto)
+3. [Arquitectura](#arquitectura)
+4. [Proceso](#proceso)
+5. [Funcionalidades](#funcionalidades)
+6. [Estado del Proyecto](#estado-del-proyecto)
+7. [Agradecimientos](#agradecimientos)
 
+## Introducción
 
-* Nombre del proyecto
+MedScan es una herramienta avanzada desarrollada para analizar radiografías de tórax y asistir en el diagnóstico de enfermedades pulmonares mediante el uso de inteligencia artificial.
 
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
+## Descripción del Proyecto
 
-* Arquitectura del proyecto + imagen
+MedScan utiliza un modelo de aprendizaje profundo basado en redes neuronales convolucionales (CNN) para analizar imágenes de radiografías de tórax. El proyecto incluye una aplicación web que permite a los usuarios cargar imágenes de radiografías y recibir predicciones sobre la presencia de enfermedades específicas.
 
-* Proceso de desarrollo:
+![Imagen del Proyecto](../Helix/public/assets/img/image.png)
+![Imagen del Proyecto](../Helix/public/assets/img/image-1.png)
 
--Fuente del dataset
--Limpieza de datos (img que lo valide)
--Manejo excepciones/control errores
--¿Qué modelo de Machine Learning están usando?
--Estadísticos (Valores, gráficos, …)
--Métrica(s) de evaluación del modelo
+## Arquitectura
 
-* Funcionalidades extra:
+La arquitectura de MedScan sigue un enfoque cliente-servidor, donde el servidor maneja las solicitudes de predicción y el cliente proporciona la interfaz de usuario para interactuar con la herramienta.
 
-Ejem 1: Implementación de chatbot
-- Tecnología/Herramientas usadas (Librería, Framework, …)
-- Arquitectura (img)
-- Indicar fuente del dataset
-- Limpieza de datos (ejem: se usó PLN + img que lo validen)
-- Manejo excepciones/control errores
-- En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
-- Estadísticos (Valores, gráficos, …)
-- Métrica(s) de evaluación del modelo
+![Arquitectura del Proyecto](../Helix/public/assets/img/Arqi.png)
 
-Ejem 2: Integración del proyecto en una pág web
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+## Proceso
 
-Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+### Fuente del Dataset
 
-Ejem 4: Desarrollo de interfaz gráfica de usuario
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+El dataset utilizado en MedScan se obtuvo de Kaggle. Puedes acceder al dataset en [Kaggle - NIH Chest X-rays](https://www.kaggle.com/datasets/nih-chest-xrays/data/data).
 
-Ejem …: …
-- Tecnología/Herramientas usadas …
+### Limpieza de Datos
+
+Se realizó un proceso de limpieza de datos para asegurar la calidad y consistencia de las imágenes antes de entrenar el modelo.
+![alt text](../Helix/public/assets/img/limpieza.jpg)
+![alt text](../Helix/public/assets/img/limpieza1.jpg)
+![alt text](../Helix/public/assets/img/limpieza2.jpg)
+
+### Manejo de Excepciones/Control de Errores
+
+Se implementaron mecanismos robustos para manejar excepciones y controlar errores durante el procesamiento de las imágenes y las solicitudes de predicción.
+
+### Modelo de Machine Learning
+
+MedScan utiliza un modelo de red neuronal convolucional (CNN) entrenado con un vasto conjunto de datos de radiografías de tórax para realizar predicciones precisas sobre la presencia de enfermedades.
+
+### Estadísticos
+
+Se calcularon y analizaron diversos estadísticos para evaluar el rendimiento del modelo
+![alt text](../Helix/public/assets/img/estadistica.jpg)
+
+## Funcionalidades
+
+MedScan ofrece las siguientes funcionalidades clave:
+
+- **Carga de Imágenes:** Los médicos pueden cargar radiografías de tórax para recibir predicciones sobre la presencia de enfermedades pulmonares.
+- **Interfaz de Usuario Intuitiva:** Interfaz web sencilla diseñada para facilitar la carga de imágenes y visualización de resultados.
+- **API RESTful:** Implementación de una API RESTful utilizando Flask y TensorFlow/Keras para integración con sistemas médicos y otras aplicaciones clínicas.
+
+## Estado del Proyecto
+
+Actualmente, MedScan se encuentra en fase de desarrollo avanzado y se está preparando para pruebas adicionales y validaciones antes de su implementación en entornos clínicos.
+
+## Agradecimientos
+
+Este proyecto fue desarrollado como parte del programa Samsung Innovation Campus, con el apoyo y orientación de colaboradores y mentores involucrados en el proceso.
+
+**Nota:** MedScan es una herramienta de demostración y no debe utilizarse para diagnóstico médico en un entorno real.
