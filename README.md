@@ -38,8 +38,6 @@ El dataset utilizado en MedScan se obtuvo de Kaggle. Puedes acceder al dataset e
 ### Limpieza de Datos
 
 Se realizó un proceso de limpieza de datos para asegurar la calidad y consistencia de las imágenes antes de entrenar el modelo.
-![alt text](./public/assets/img/limpieza.jpg)
-![alt text](./public/assets/img/limpieza1.jpg)
 ![alt text](./public/assets/img/limpieza2.jpg)
 
 ### Manejo de Excepciones/Control de Errores
@@ -53,7 +51,8 @@ MedScan utiliza un modelo de red neuronal convolucional (CNN) entrenado con un v
 ### Estadísticos
 
 Se calcularon y analizaron diversos estadísticos para evaluar el rendimiento del modelo
-![alt text](./public/assets/img/estadistica.jpg)
+![alt text](./public/assets/img/limpieza.jpg)
+![alt text](./public/assets/img/limpieza1.jpg)
 
 ## Funcionalidades
 
@@ -61,14 +60,17 @@ MedScan ofrece las siguientes funcionalidades clave:
 
 - **Carga de Imágenes:** Los médicos pueden cargar radiografías de tórax para recibir predicciones sobre la presencia de enfermedades pulmonares.
 - **Interfaz de Usuario Intuitiva:** Interfaz web sencilla diseñada para facilitar la carga de imágenes y visualización de resultados.
-- **API RESTful:** Implementación de una API RESTful utilizando Flask y TensorFlow/Keras para integración con sistemas médicos y otras aplicaciones clínicas.
 
 ## Estado del Proyecto
 
-Actualmente, MedScan se encuentra en fase de desarrollo avanzado y se está preparando para pruebas adicionales y validaciones antes de su implementación en entornos clínicos.
+MedScan se encuentra actualmente en una fase avanzada de desarrollo, en preparación para pruebas adicionales y validaciones antes de su lanzamiento en entornos clínicos.
+
+Estamos emocionados de anunciar que la versión 1.1.0 está en proceso, la cual incluirá la adición de un mapa de calor a las imágenes para proporcionar una visualización detallada de las áreas afectadas en los pacientes.
 
 ## Agradecimientos
 
 Este proyecto fue desarrollado como parte del programa Samsung Innovation Campus, con el apoyo y orientación de colaboradores y mentores involucrados en el proceso.
+
+Queremos agradecer especialmente a Giancarlos por su invaluable apoyo y orientación como maestro y docente durante el desarrollo de este proyecto dentro del programa Samsung Innovation Campus.
 
 **Nota:** MedScan es una herramienta de demostración y no debe utilizarse para diagnóstico médico en un entorno real.
