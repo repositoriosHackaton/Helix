@@ -20,8 +20,8 @@ MedScan es una herramienta avanzada desarrollada para analizar radiografías de 
 
 MedScan utiliza un modelo de aprendizaje profundo basado en redes neuronales convolucionales (CNN) para analizar imágenes de radiografías de tórax. El proyecto incluye una aplicación web que permite a los usuarios cargar imágenes de radiografías y recibir predicciones sobre la presencia de enfermedades específicas.
 
-![Imagen del Proyecto](../Helix/public/assets/img/image.png)
-![Imagen del Proyecto](../Helix/public/assets/img/image-1.png)
+![Imagen del Proyecto](./public/assets/img/image.png)
+![Imagen del Proyecto](./public/assets/img/image-1.png)
 
 ## Arquitectura
 
@@ -38,9 +38,9 @@ El dataset utilizado en MedScan se obtuvo de Kaggle. Puedes acceder al dataset e
 ### Limpieza de Datos
 
 Se realizó un proceso de limpieza de datos para asegurar la calidad y consistencia de las imágenes antes de entrenar el modelo.
-![alt text](../Helix/public/assets/img/limpieza.jpg)
-![alt text](../Helix/public/assets/img/limpieza1.jpg)
-![alt text](../Helix/public/assets/img/limpieza2.jpg)
+![alt text](./public/assets/img/limpieza.jpg)
+![alt text](./public/assets/img/limpieza1.jpg)
+![alt text](./public/assets/img/limpieza2.jpg)
 
 ### Manejo de Excepciones/Control de Errores
 
@@ -53,7 +53,7 @@ MedScan utiliza un modelo de red neuronal convolucional (CNN) entrenado con un v
 ### Estadísticos
 
 Se calcularon y analizaron diversos estadísticos para evaluar el rendimiento del modelo
-![alt text](../Helix/public/assets/img/estadistica.jpg)
+![alt text](./public/assets/img/estadistica.jpg)
 
 ## Funcionalidades
 
