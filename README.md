@@ -72,6 +72,10 @@ MedScan se encuentra actualmente en una fase avanzada de desarrollo, en preparac
 
 Estamos emocionados de anunciar que la versión 1.1.0 está en proceso, la cual incluirá la adición de un mapa de calor a las imágenes para proporcionar una visualización detallada de las áreas afectadas en los pacientes.
 
+Además, estamos desarrollando una versión de escritorio para MedScan, que ampliará las opciones de uso y accesibilidad de la herramienta en entornos clínicos y de investigación.
+
+Esta adición fortalecerá nuestra capacidad para brindar diagnósticos precisos y mejorar la experiencia del usuario en múltiples plataformas.
+
 ## Agradecimientos
 
 Este proyecto fue desarrollado como parte del programa Samsung Innovation Campus, con el apoyo y orientación de colaboradores y mentores involucrados en el proceso.
