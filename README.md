@@ -1,6 +1,6 @@
 # 🩺 MedScan - Predicción de Enfermedades a partir de Radiografías de Tórax
 
-Este proyecto presenta una innovadora herramienta basada en inteligencia artificial (IA) para el diagnóstico de enfermedades pulmonares a partir de imágenes de radiografías de tórax. La solución emplea un modelo de aprendizaje profundo entrenado para analizar las radiografías y proporcionar predicciones sobre la presencia de diversas enfermedades.
+Este proyecto presenta una innovadora herramienta basada en inteligencia artificial (IA) para el diagnóstico de enfermedades torácicas a partir de imágenes de radiografías de tórax. La solución emplea un modelo de aprendizaje profundo entrenado para analizar las radiografías y proporcionar predicciones sobre la presencia de diversas enfermedades.
 
 ## Tabla de contenidos
 
@@ -15,7 +15,7 @@ Este proyecto presenta una innovadora herramienta basada en inteligencia artific
 
 ## Introducción
 
-MedScan es una herramienta avanzada desarrollada para analizar radiografías de tórax y asistir en el diagnóstico de enfermedades pulmonares mediante el uso de inteligencia artificial.
+MedScan es una herramienta avanzada desarrollada para analizar radiografías de tórax y asistir en el diagnóstico de enfermedades torácicas mediante el uso de inteligencia artificial.
 
 ## Descripción del Proyecto
 
@@ -63,7 +63,7 @@ Se calcularon y analizaron diversos estadísticos para evaluar el rendimiento de
 
 MedScan ofrece las siguientes funcionalidades clave:
 
-- **Carga de Imágenes:** Los médicos pueden cargar radiografías de tórax para recibir predicciones sobre la presencia de enfermedades pulmonares.
+- **Carga de Imágenes:** Los médicos pueden cargar radiografías de tórax para recibir predicciones sobre la presencia de enfermedades torácicas.
 - **Interfaz de Usuario Intuitiva:** Interfaz web sencilla diseñada para facilitar la carga de imágenes y visualización de resultados.
 
 ## Estado del Proyecto
@@ -97,3 +97,4 @@ Para instalar las dependencias necesarias, asegúrate de estar en el directorio 
 
 ```sh
 pip install -r requirements.txt
+```
