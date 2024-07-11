@@ -7,8 +7,8 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 
-labels = ['Cardiomegaly', 'Emphysema', 'Effusion', 'Hernia', 'Infiltration', 'Mass', 
-          'Nodule', 'Atelectasis', 'Pneumothorax', 'Pleural_Thickening', 'Pneumonia', 
+labels = ['Cardiomegaly', 'Emphysema', 'Effusion', 'Hernia', 'Infiltration', 'Mass',
+          'Nodule', 'Atelectasis', 'Pneumothorax', 'Pleural_Thickening', 'Pneumonia',
           'Fibrosis', 'Edema', 'Consolidation']
 
 model_path = 'complete_model.h5'
