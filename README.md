@@ -27,7 +27,7 @@ MedScan utiliza un modelo de aprendizaje profundo basado en redes neuronales con
 
 La arquitectura de MedScan sigue un enfoque cliente-servidor, donde el servidor maneja las solicitudes de predicción y el cliente proporciona la interfaz de usuario para interactuar con la herramienta.
 
-![Arquitectura del Proyecto](../Helix/public/assets/img/Arqi.png)
+![Arquitectura del Proyecto](/public/assets/img/Arqi.png)
 
 ## Proceso
 
