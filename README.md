@@ -11,6 +11,7 @@ Este proyecto presenta una innovadora herramienta basada en inteligencia artific
 5. [Funcionalidades](#funcionalidades)
 6. [Estado del Proyecto](#estado-del-proyecto)
 7. [Agradecimientos](#agradecimientos)
+8. [Requisitos y Ejecución](#requisitos-y-ejecución)
 
 ## Introducción
 
@@ -52,7 +53,7 @@ MedScan utiliza un modelo de red neuronal convolucional (CNN) entrenado con un v
 
 ### Estadísticos
 
-Se calcularon y analizaron diversos estadísticos para evaluar el rendimiento del modelo
+Se calcularon y analizaron diversos estadísticos para evaluar el rendimiento del modelo.
 
 ![alt text](./public/assets/img/limpieza.jpg)
 
@@ -78,3 +79,17 @@ Este proyecto fue desarrollado como parte del programa Samsung Innovation Campus
 Queremos agradecer especialmente a Giancarlos por su invaluable apoyo y orientación como maestro y docente durante el desarrollo de este proyecto dentro del programa Samsung Innovation Campus.
 
 **Nota:** MedScan es una herramienta de demostración y no debe utilizarse para diagnóstico médico en un entorno real.
+
+## Requisitos y Ejecución
+
+### Requisitos
+
+- Python 3.x
+- Pip (administrador de paquetes de Python)
+
+### Instalación de Dependencias
+
+Para instalar las dependencias necesarias, asegúrate de estar en el directorio del proyecto y ejecuta el siguiente comando:
+
+```sh
+pip install -r requirements.txt
